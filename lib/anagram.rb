@@ -7,9 +7,9 @@ class Anagram
     @word = word 
   end
   
-  binding.pry
   
   def match(array)
+    binding.pry
     word.select do |w|
       w == word
     end
