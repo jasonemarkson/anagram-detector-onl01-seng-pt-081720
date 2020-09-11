@@ -8,8 +8,7 @@ class Anagram
   end
   
   def match(array)
-    array = []
-    array.match { |w| w == word }
+    
   end
   
 end
