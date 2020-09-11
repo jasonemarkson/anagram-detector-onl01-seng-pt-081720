@@ -9,6 +9,7 @@ class Anagram
   
   def match(array)
     array = []
+    array.match do { |w| == word }
   end
   
 end
