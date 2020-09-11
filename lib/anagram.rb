@@ -9,9 +9,8 @@ class Anagram
   
   
   def match(array)
-    binding.pry
     word.select do |w|
-      w == word
+      w.sort == word.sort
     end
   end
   
