@@ -11,5 +11,6 @@ class Anagram
     array = []
     array.match do { |w| == word }
   end
+  end
   
 end
